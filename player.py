@@ -32,11 +32,9 @@ class Player(CircleShape):
             self.move(-dt)
 
         if keys[pygame.K_a]:
-            # turn to the left
             self.rotate(-dt)
 
         if keys[pygame.K_d]:
-            # turn to the right
             self.rotate(dt)
     
     def move(self, dt):
